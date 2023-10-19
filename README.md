@@ -1,5 +1,4 @@
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,8 +6,7 @@
     <title>Vote</title>
     <link rel="stylesheet" href="bjp.css">
     <script src="scripts.js" defer></script>
-</head>
-<body>
+
 </label>
         
 <header>

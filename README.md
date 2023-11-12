@@ -1,63 +1,175 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RummyCircle Ad</title>
-    <style>
-        .ad-container {
-            width: 300px; /* Adjust the width as needed */
-            background-color: #f0f0f0;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-        }
-
-        .ad-image {
-            width: 100%;
-            height: auto;
-        }
-
-        .ad-description {
-            margin-top: 10px;
-            font-size: 14px;
-        }
-
-        .invite-link {
-            margin-top: 10px;
-            font-size: 14px;
-            color: #0078d4; /* Adjust the color as needed */
-            text-decoration: none;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <title>Services and Pricing</title>
 </head>
 <body>
-    <div class="ad-container">
-        <img src="m-lp-slide-1.jpg" alt="RummyCircle Ad" class="ad-image">
-        <p class="ad-description">
-            RummyCircle - The Ultimate Online Rummy Experience! Play at your own risk and enjoy exciting rummy games.
-            RummyCircle is an online gaming platform that specializes in offering a wide variety of rummy card games to players. Rummy is a popular card game that requires skill, strategy, and a good understanding of the rules. RummyCircle provides a user-friendly and engaging platform for people to enjoy this classic card game in a digital format.
+<style>
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 
-Key features of RummyCircle include:
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
 
-1. Game Variations: RummyCircle offers multiple variations of the rummy card game, including Indian Rummy, Pool Rummy, Points Rummy, and Deals Rummy, providing players with different ways to enjoy the game.
+#pricing {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
 
-2. Tournaments: Players can participate in various tournaments with different entry fees and prize pools, adding a competitive element to the gameplay.
+.pricing-card {
+    background-color: silver;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2em;
+    text-align: center;
+    border-radius: 8px;
+    width: 30%;
+}
 
-3. User-Friendly Interface: The platform is designed to be easy to navigate, making it accessible for both beginners and experienced rummy players.
+.price {
+    font-size: 1.5em;
+    color: #333;
+    margin: 1em 0;
+}
 
-4. Secure and Fair Play: RummyCircle ensures a fair and secure gaming environment, with stringent anti-fraud measures and random card shuffling algorithms.
+.original-price {
+    text-decoration: line-through;
+    color: #999;
+}
 
-5. Practice Games: Players can practice and improve their rummy skills by playing free practice games before participating in cash games or tournaments.
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.8em 1.5em;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
-6. Mobile App: RummyCircle offers a mobile app for convenient gaming on smartphones and tablets.
+button:hover {
+    background-color: #45a049;
+}
+li{
+    background-color: green;
+}
+</style>
+    <header>
+        <h1>I PROIVDE YOU BEST WEBSITE CREATE (PAID)</h1> 
+    </header>
 
-7. Rewards and Bonuses: The platform often provides bonuses and promotions, such as welcome bonuses, referral rewards, and loyalty programs.
+    <section id="pricing">
+        <div class="pricing-card">
+            <h2>Basic Plan</h2>
+            <p class="price"><span class="original-price">$30</span> $20</p>
+            <p>Great for starters</p>
+            <a href="https://wa.me/6353074867" target="_blank">DM TO BUY</a>
+        </div>
+        <br>
 
-RummyCircle has become a popular destination for rummy enthusiasts to enjoy their favorite card game online, connect with other players, and potentially win cash prizes. It's important to note that online gaming platforms like RummyCircle may have age restrictions and responsible gaming guidelines in place to ensure a safe and enjoyable experience for all users.
-        </p>
-      <center>  <a href="YOUR_INVITE_LINK_HERE" class="invite-link">Join Now</a>
+        <div class="pricing-card">
+            <h2>Standard Plan</h2>
+            <p class="price"><span class="original-price">$50</span> $30</p>
+            <p>Perfect for small businesses</p>
+            <a href="https://wa.me/6353074867" target="_blank">DM TO BUY</a>
+        </div>
+<br>
+        <div class="pricing-card">
+            <h2>Premium Plan</h2>
+            <p class="price"><span class="original-price">$80</span> $40</p>
+            <p>For advanced users</p>
+            <a href="https://wa.me/6353074867" target="_blank">DM TO BUY</a>
+        </div>
+        <ul>
+
+        </ul>
+
+    </section>
+
+   
+
+
+<header>
+    <h1> Our Simple Website</h1>
+    <p>Discover amazing things at an unbeatable price!</p>
+</header>
+<style>
+    body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.price-card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2em;
+    text-align: center;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #333;
+}
+
+.price {
+    font-size: 1.5em;
+    color: #333;
+    margin: 1em 0;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #999;
+}
+
+p {
+    margin: 1em 0;
+    color: #666;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    padding: 0.8em 1.5em;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #45a049;
+}
+
+</style>
+<section id="pricing">
+    <div class="price-card">
+        <h2>Special Offer</h2>
+        <p class="price"><span class="original-price">$7</span> $5</p>
+        <p>Limited time discount!</p>
+<li>  <a href="https://wa.me/6353074867" target="_blank">DM TO BUY</a></li>
     </div>
-</body>
-</html>
+</section>
